@@ -10,9 +10,11 @@
     <header>
       <nav>
         <ol>
-          <li><a class="current" href="./question_1.html">Vraag 1</a></li>
-          <li><a href="./question_2.html">Vraag 2</a></li>
-          <li><a href="">Vraag 3</a></li>
+          <li>
+            <a class="current" href="./question_1.html">Algemene informatie</a>
+          </li>
+          <li><a href="./question_2.html">Web App From Scratch </a></li>
+          <li><a href="">CSS To The Rescue</a></li>
           <li><a href="">Vraag 4</a></li>
           <li><a href="">Vraag 5</a></li>
         </ol>
@@ -24,8 +26,18 @@
           <legend>Personal information</legend>
           <label for="name">Wat is je naam?</label>
           <input name="name" id="name" type="text" required autocomplete="on" />
+          <label for="student_number">Wat is je studentnummer?</label>
+          <input
+            name="student_number"
+            id="student_number"
+            type="text"
+            required
+            autocomplete="on"
+            inputmode="numeric"
+            pattern="[0-9][0-9]{8}"
+          />
         </fieldset>
-        <button type="submit">Ok</button>
+        <input type="submit" value="Ok" />
       </form>
     </main>
     <footer></footer>
