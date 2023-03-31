@@ -1,22 +1,46 @@
 const formInputs = document.querySelectorAll(
-  'input[type="text"], input[type="email"]',
+  'input[type="text"], input[type="email"], textarea, input[name="rate"]:checked',
 );
 
-loadInputLocal();
+const formRadios = document.querySelectorAll('input[type="radio"]');
 
-formInputs.forEach((input) => {
-  input.addEventListener('input', saveInputLocal);
+// Functions for radio inputs
+function saveFormRadios() {
+  formRadios.forEach((input) => {
+    let inputName = input.name;
+    let inputValue = input.value;
+    if (input.checked) {
+      localStorage.setItem(inputName, inputValue);
+    }
+  });
+}
+
+function loadFormRadios() {
+  formRadios.forEach((input) => {
+    let inputName = input.name;
+    let storedValue = localStorage.getItem(inputName);
+    if (storedValue && input.value === storedValue) {
+      input.checked = true;
+    }
+  });
+}
+
+formRadios.forEach((input) => {
+  input.addEventListener('change', saveFormRadios);
 });
 
-function saveInputLocal() {
+loadFormRadios();
+
+// Functions for normal inputs
+const saveInput = () => {
   formInputs.forEach((input) => {
     const inputName = input.name;
     const inputValue = input.value;
     localStorage.setItem(inputName, inputValue);
   });
-}
+};
 
-function loadInputLocal() {
+const loadInput = () => {
   formInputs.forEach((input) => {
     const inputName = input.name;
     let storedValue = localStorage.getItem(inputName);
@@ -24,4 +48,10 @@ function loadInputLocal() {
       input.value = storedValue;
     }
   });
-}
+};
+
+formInputs.forEach((input) => {
+  input.addEventListener('input', saveInput);
+});
+
+loadInput();

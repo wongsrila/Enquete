@@ -10,9 +10,11 @@
     <header>
       <nav>
         <ol>
-          <li><a class="current" href="./question_1.html">Vraag 1</a></li>
-          <li><a href="./question_2.html">Vraag 2</a></li>
-          <li><a href="">Vraag 3</a></li>
+          <li>
+            <a class="current" href="./question_1.html">Algemene informatie</a>
+          </li>
+          <li><a href="./question_2.html">Web App From Scratch </a></li>
+          <li><a href="">CSS To The Rescue</a></li>
           <li><a href="">Vraag 4</a></li>
           <li><a href="">Vraag 5</a></li>
         </ol>
@@ -21,17 +23,24 @@
     <main>
       <form action="">
         <fieldset>
-          <legend>Personal information</legend>
-          <label for="student_number">Wat is je studentnummer?</label>
-          <input
-            name="student_number"
-            id="student_number"
-            type="text"
-            required
-            autocomplete="on"
-            inputmode="numeric"
-            pattern="[0-9][0-9]{8}"
-          />
+          <legend>Web App From Scratch</legend>
+          <label for="beschrijving">beschrijving</label>
+          <textarea
+            name="beschrijving"
+            id="beschrijving"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <label for="1">1</label>
+          <input id="1" type="radio" name="rate" value="1" />
+          <label for="2">2</label>
+          <input id="2" type="radio" name="rate" value="2" />
+          <label for="3">3</label>
+          <input id="3" type="radio" name="rate" value="3" />
+          <label for="4">4</label>
+          <input id="4" type="radio" name="rate" value="4" />
+          <label for="5">5</label>
+          <input id="5" type="radio" name="rate" value="5" />
         </fieldset>
         <a href="./question_1.html">Terug</a>
         <button type="submit">Ok</button>
