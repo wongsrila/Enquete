@@ -1,5 +1,5 @@
 const formInputs = document.querySelectorAll(
-  'input[type="text"], input[type="email"], textarea, input[name="rate"]:checked',
+  'input[type="text"], input[type="email"], textarea, input[type="week"]',
 );
 
 const formRadios = document.querySelectorAll('input[type="radio"]');
