@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <meta name="color-scheme" content="dark" /> -->
     <title>Document</title>
   </head>
   <body>
@@ -26,10 +32,24 @@
         <fieldset>
           <legend>Periode</legend>
           <p>docenten: Robert & Joost</p>
-          <label for="wafs_week_van">Gevolgd in week</label>
-          <input id="wafs_week_van" type="week" name="wafs_week_van" required />
-          <label for="wafs_week_tot">tot</label>
-          <input id="wafs_week_tot" type="week" name="wafs_week_tot" required />
+          <p>Gevolgd in week 1 t/m 3</p>
+        </fieldset>
+        <fieldset>
+          <legend>Omschrijving</legend>
+          <label for="wafs_mening">Wat vond je van het vak?</label>
+          <textarea
+            name="wafs_mening"
+            id="wafs_mening"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <label for="wafs_tips">Wat ging goed en wat kan er beter?</label>
+          <textarea
+            name="wafs_tips"
+            id="wafs_tips"
+            cols="30"
+            rows="10"
+          ></textarea>
         </fieldset>
         <fieldset>
           <legend>cijfer</legend>
@@ -57,13 +77,57 @@
           <input id="9" type="radio" name="wafs_cijfer" value="9" />
           <label for="10">10</label>
           <input id="10" type="radio" name="wafs_cijfer" value="10" />
-        </fieldset>
-        <fieldset>
-          <legend>Uitleg</legend>
-          <label for=""></label>
+
+          <label for="wafs_beoordeling_cijfer">Hoe moeilijk was de stof?</label>
+          <br />
+          <label for="1">1</label>
+          <input id="1" type="radio" name="wafs_cijfer" value="1" />
+          <label for="2">2</label>
+          <input id="2" type="radio" name="wafs_cijfer" value="2" />
+          <label for="3">3</label>
+          <input id="3" type="radio" name="wafs_cijfer" value="3" />
+          <label for="4">4</label>
+          <input id="4" type="radio" name="wafs_cijfer" value="4" />
+          <label for="5">5</label>
+          <input id="5" type="radio" name="wafs_cijfer" value="5" />
+          <label for="6">6</label>
+          <input id="6" type="radio" name="wafs_cijfer" value="6" />
+          <label for="7">7</label>
+          <input id="7" type="radio" name="wafs_cijfer" value="7" />
+          <label for="8">8</label>
+          <input id="8" type="radio" name="wafs_cijfer" value="8" />
+          <label for="9">9</label>
+          <input id="9" type="radio" name="wafs_cijfer" value="9" />
+          <label for="10">10</label>
+          <input id="10" type="radio" name="wafs_cijfer" value="10" />
+
+          <label for="wafs_beoordeling_cijfer"
+            >hoe duidelijk is het uitgelegd?</label
+          >
+          <br />
+          <label for="1">1</label>
+          <input id="1" type="radio" name="wafs_cijfer" value="1" />
+          <label for="2">2</label>
+          <input id="2" type="radio" name="wafs_cijfer" value="2" />
+          <label for="3">3</label>
+          <input id="3" type="radio" name="wafs_cijfer" value="3" />
+          <label for="4">4</label>
+          <input id="4" type="radio" name="wafs_cijfer" value="4" />
+          <label for="5">5</label>
+          <input id="5" type="radio" name="wafs_cijfer" value="5" />
+          <label for="6">6</label>
+          <input id="6" type="radio" name="wafs_cijfer" value="6" />
+          <label for="7">7</label>
+          <input id="7" type="radio" name="wafs_cijfer" value="7" />
+          <label for="8">8</label>
+          <input id="8" type="radio" name="wafs_cijfer" value="8" />
+          <label for="9">9</label>
+          <input id="9" type="radio" name="wafs_cijfer" value="9" />
+          <label for="10">10</label>
+          <input id="10" type="radio" name="wafs_cijfer" value="10" />
         </fieldset>
         <a href="./question_1.html">Terug</a>
-        <button type="submit">Ok</button>
+        <input type="submit" value="Volgende" />
       </form>
     </main>
     <footer></footer>

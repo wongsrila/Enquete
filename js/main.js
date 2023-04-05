@@ -1,10 +1,6 @@
-const formInputs = document.querySelectorAll(
-  'input[type="text"], input[type="email"], textarea, input[type="week"]',
-);
-
+// Functions for radio inputs
 const formRadios = document.querySelectorAll('input[type="radio"]');
 
-// Functions for radio inputs
 function saveFormRadios() {
   formRadios.forEach((input) => {
     let inputName = input.name;
@@ -32,6 +28,10 @@ formRadios.forEach((input) => {
 loadFormRadios();
 
 // Functions for normal inputs
+const formInputs = document.querySelectorAll(
+  'input[type="text"], input[type="email"], textarea, input[type="week"]',
+);
+
 const saveInput = () => {
   formInputs.forEach((input) => {
     const inputName = input.name;
