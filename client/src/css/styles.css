@@ -199,27 +199,3 @@ input[type='radio']:checked + span {
   background-color: var(--color-accent);
   color: white;
 }
-
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
-
-  fieldset {
-    padding: 0 !important;
-  }
-
-  textarea {
-    height: 40px;
-  }
-
-  label {
-    font-size: 14px;
-    font-weight: 600;
-  }
-
-  .radio-option {
-    display: block;
-    padding: 7px 9px !important;
-  }
-}

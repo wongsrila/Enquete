@@ -11,7 +11,7 @@ app.post('/send', (req, res) => {
   console.log(req.body);
 
   // vervolgens stuur je een reactie terug naar de client dat het successvol is verstuurd.
-  res.send('Je enquete is successvol vezonden!');
+  res.json(req.body);
 });
 
 app.listen(port, () =>
