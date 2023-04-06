@@ -20,6 +20,25 @@ Progressive enhancement is een ontwerpprincipe voor het maken van websites of ap
 
 Feature detection is een techniek om te controleren of een bepaalde functie of mogelijkheid beschikbaar is in de browser of het apparaat van een gebruiker voordat deze wordt gebruikt. Dit wordt meestal gebruikt om te bepalen of een website of applicatie geavanceerde functies kan aanbieden aan gebruikers met moderne browsers of apparaten, terwijl ze de basisfunctionaliteit behouden voor gebruikers met oudere of minder geavanceerde apparaten. Door te detecteren welke functies beschikbaar zijn in de browser of het apparaat van een gebruiker, kan een website of applicatie beslissen welke functies moeten worden aangeboden en welke alternatieven moeten worden gebruikt als bepaalde functies niet beschikbaar zijn.
 
+```javascript
+function isLocalStorageAvailable() {
+  var test = 'test';
+  try {
+    localStorage.setItem(test, test);
+    localStorage.removeItem(test);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+if (isLocalStorageAvailable()) {
+  // available
+} else {
+  // unavailable
+}
+```
+
 ## Features
 
 1. Dark/Light modes
