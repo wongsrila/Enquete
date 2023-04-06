@@ -89,6 +89,9 @@ Als de gebruiker de formulier verzend, gaat dit naar de api die ik heb gemaakt m
 ## Bronnen
 
 [feature detection](https://stackoverflow.com/questions/16427636/check-if-localstorage-is-available)
+
 [Minor Github](https://github.com/cmda-minor-web/browser-technologies-2223/tree/main/examples)
+
 [Browser Technologies](https://html-now.github.io/)
+
 [The Role of Enhancement in Web Design](https://www.nngroup.com/articles/enhancement/)
