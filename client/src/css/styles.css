@@ -30,17 +30,6 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
-  fieldset {
-    padding: 0 !important;
-  }
-
-  .radio-option {
-    display: block;
-    padding: 7px 9px !important;
-  }
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--color-bg);
@@ -136,6 +125,10 @@ fieldset {
   width: 100%;
 }
 
+label {
+  font-weight: 600;
+}
+
 textarea {
   width: 100%;
   height: 100px;
@@ -145,6 +138,11 @@ textarea {
 }
 
 .btn-group {
+  border-top: 1px solid var(--text-color);
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  width: 100%;
   margin-top: 8px;
   display: flex;
 }
@@ -200,4 +198,28 @@ input[type='radio'] {
 input[type='radio']:checked + span {
   background-color: var(--color-accent);
   color: white;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  fieldset {
+    padding: 0 !important;
+  }
+
+  textarea {
+    height: 40px;
+  }
+
+  label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .radio-option {
+    display: block;
+    padding: 7px 9px !important;
+  }
 }
