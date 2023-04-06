@@ -1,5 +1,15 @@
 // Feature detection - LocalStorage
 // https://github.com/Modernizr/Modernizr/blob/master/feature-detects/storage/localstorage.js
+function isLocalStorageAvailable() {
+  var test = 'test';
+  try {
+    localStorage.setItem(test, test);
+    localStorage.removeItem(test);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
 
 if (isLocalStorageAvailable()) {
   // Functions for radio inputs
@@ -59,17 +69,6 @@ if (isLocalStorageAvailable()) {
   });
 
   loadInput();
-
-  function isLocalStorageAvailable() {
-    var test = 'test';
-    try {
-      localStorage.setItem(test, test);
-      localStorage.removeItem(test);
-      return true;
-    } catch (e) {
-      return false;
-    }
-  }
 } else {
   console.log('live opslaan wordt niet ondersteund door jouw browser');
 }
