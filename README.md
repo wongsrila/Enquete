@@ -54,4 +54,7 @@ Feature detection is een techniek om te controleren of een bepaalde functie of m
 
    ![Chrome browser](./client/src/images/flow.png)
 
-5. Samsung Internet -
+5. Samsung Chrome -
+   Ook op de Samsung telefoon met de Chrome browser werkt alle features. Ook de localStorage werkt. De validatie popup ziet er alleen iets anders uit dan op die van Chrome. Dark/Light modes werkt, HTML Validatie, Input oplsaan in LocalStorage en Hash Link navigation werkt. Ook is het goed responsive op de mobiele versie. Ook is het goed responsive op de mobiele versie.
+
+   ![Chrome browser](./client/src/images/samsung-chrome.jpeg)
