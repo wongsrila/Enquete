@@ -8,6 +8,6 @@
 
 Voor de eindopdracht van Browser Technologies heb ik gekozen voor de enquete case. De gebruiker moet een enquete kunnen invullen over de minor Web Development. Er is te zien waar de gebruiker is en hoeveel vragen die nog moet antwoorden. Ook moet de gebruiker het later kunnen afmaken en dat de gegevens bewaard blijven.
 
-[Flow Enqute](https://wongsrila.github.io/Enquete/client/)
+[Flow Enqute](https://github.com/wongsrila/Enquete/blob/ddcb3ee21e11513a326e54d698a20b50c08fc356/client/src/images/flow_enquete.png?raw=true)
 
 ## Browser Technologies
