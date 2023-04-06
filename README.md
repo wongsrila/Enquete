@@ -34,12 +34,12 @@ Feature detection is een techniek om te controleren of een bepaalde functie of m
 
 ## Geteste browsers
 
-1. Chrome
+1. Chrome -
    Omdat ik zelf programmeer met Chrome is dit een makkelijke. Alle functionaliteiten werken op Chrome. Dark/Light modes werkt, HTML Validatie, Input oplsaan in LocalStorage en Hash Link navigation werkt. Ook is het goed responsive op de mobiele versie.
-2. Safari
+2. Safari -
    Vervolgens ben ik mijn app gaan testen op Safari. Hier werkt ook alles naar behoren. De validatie popup ziet er alleen iets anders uit dan op die van Chrome. Dark/Light modes werkt, HTML Validatie, Input oplsaan in LocalStorage en Hash Link navigation werkt. Ook is het goed responsive op de mobiele versie. Ook is het goed responsive op de mobiele versie.
-3. Firefox
+3. Firefox -
    In Firefox werkt ook alles. De validatie popup ziet er alleen iets anders uit dan op die van Chrome. Dark/Light modes werkt, HTML Validatie, Input oplsaan in LocalStorage en Hash Link navigation werkt. Ook is het goed responsive op de mobiele versie. Ook is het goed responsive op de mobiele versie.
-4. Flow
+4. Flow -
    Als obscure browser heb ik gekozen voor Flow. Tot mijn verbazing zag het er nog goed uit. Alles werkte behalve de javscript. Hierdoor werkten de live oplsaan niet maar de navigatie en de styling werkte nog wel. Dus de basis functie van een formulier verzenden werkt. Wat ook niet werkt is de form validatie. Dus je zou in principe een form met lege velden op kunnen sturen.
-5. Samsung Internet
+5. Samsung Internet -
