@@ -8,11 +8,13 @@
 
 Voor de eindopdracht van Browser Technologies heb ik gekozen voor de enquete case. De gebruiker moet een enquete kunnen invullen over de minor Web Development. Er is te zien waar de gebruiker is en hoeveel vragen die nog moet antwoorden. Ook moet de gebruiker het later kunnen afmaken en dat de gegevens bewaard blijven.
 
-![Flow Enquete](https://github.com/wongsrila/Enquete/blob/ddcb3ee21e11513a326e54d698a20b50c08fc356/client/src/images/flow_enquete.png?raw=true)
+![Flow Enquete](./client/src/images/flow_enquete.png)
 
 ## Progressive Enhancement
 
 Progressive enhancement is een ontwerpprincipe voor het maken van websites of applicaties waarbij de basisfunctionaliteit werkt op alle apparaten en in alle browsers, zelfs als geavanceerde functies niet worden ondersteund. Het idee is om een stevige fundering te bouwen die toegankelijk is voor iedereen en daarna geleidelijk aan meer geavanceerde functies toe te voegen voor gebruikers met modernere apparaten en browsers. Op deze manier kan iedereen de inhoud op de website bekijken en gebruiken, ongeacht hun apparaat of browser, en krijgen degenen met geavanceerdere apparaten en browsers een betere en rijkere ervaring.
+
+![Progessive Enhanced APp](./client/src/images/PE_enquete.png)
 
 ## Feature Detection
 
