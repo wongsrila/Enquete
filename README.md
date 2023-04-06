@@ -7,3 +7,4 @@
 ## Inleiding
 Voor de eindopdracht van Browser Technologies heb ik gekozen voor de enquete case. De gebruiker moet een enquete kunnen invullen over de minor Web Development. Er is te zien waar de gebruiker is en hoeveel vragen die nog moet antwoorden. Ook moet de gebruiker het later kunnen afmaken en dat de gegevens bewaard blijven.
 
+## Browser Technologies
