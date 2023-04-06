@@ -77,3 +77,18 @@ if (isLocalStorageAvailable()) {
    Ook op de Samsung telefoon met de Chrome browser werkt alle features. Ook de localStorage werkt. De validatie popup ziet er alleen iets anders uit dan op die van Chrome. Dark/Light modes werkt, HTML Validatie, Input oplsaan in LocalStorage en Hash Link navigation werkt. Ook is het goed responsive op de mobiele versie. Ook is het goed responsive op de mobiele versie.
 
    ![Chrome browser](./client/src/images/samsung-chrome.jpeg)
+
+## De drie lagen getest
+
+Ik heb tijdens het ontwikkelen van deze app met stappen gewerkt. Ik ben als eerst gaan werken met een functionerende HTML. Vervolgens ben ik CSS gaan toevoegen om het gebruiksvriendelijker te maken. Tijdens dit proces heb ik een paar div's toegepast om de layout aan te kunnen passen. Als laatst heb ik Javascript toegevoegd voor de localStorage feature. Dit is de manier hoe een Progressive Enhanced App te werk moet gaan. Nu weet ik ook zeker als gebruikers geen CSS of Javascript kunnen laden, dat ze toch de core functie kunnen gebruiken en dat is het invullen en verzenden van de enquete
+
+## Serverside Handling
+
+Als de gebruiker de formulier verzend, gaat dit naar de api die ik heb gemaakt met Express.js. De endpoint is /send met een `POST` methode. Vervolgens slaat hij de ingevoerde data op in een variable waar dit weer opgeslagen kan worden in een database zoals MongoDB. Nu heb ik als functie dat die de data terug stuurt naar de client als een .json object. Dit zou dan ook bijvoorbeeld een bedankt pagina kunnen zijn.
+
+## Bronnen
+
+[feature detection](https://stackoverflow.com/questions/16427636/check-if-localstorage-is-available)
+[Minor Github](https://github.com/cmda-minor-web/browser-technologies-2223/tree/main/examples)
+[Browser Technologies](https://html-now.github.io/)
+[The Role of Enhancement in Web Design](https://www.nngroup.com/articles/enhancement/)
